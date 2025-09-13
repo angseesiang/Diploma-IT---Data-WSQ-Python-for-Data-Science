@@ -1,15 +1,16 @@
 # Diploma (IT - Data) — WSQ Python for Data Science
 [![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)](#) [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](#) [![Open in Colab](https://img.shields.io/badge/Open%20in-Colab-brightgreen)](https://colab.google.com)
 
-This repository contains the **assignments** and **project milestones** I completed during my _Diploma in Information Technology (Data)_. The notebook names below follow the original course naming, including **Project_Milestone_1&2_Python_for_Data_Science** and **Project_Milestone_3&4_Python_for_Data_Science**.
+This repository contains the **assignments** and **project milestones** I completed during my _Diploma in Information Technology (Data)_. 
 
 ## Contents
 - [1. Assignment_01a_WSQ_Python_for_Data_Science_(SF)](#assignment-01a-wsq-python-for-data-science-sf)
 - [2. Assignment_01b_WSQ_Python_for_Data_Science_(SF)](#assignment-01b-wsq-python-for-data-science-sf)
 - [3. Assignment_02a_WSQ_Python_for_Data_Science_(SF)](#assignment-02a-wsq-python-for-data-science-sf)
-- [4. Assignment_03_WSQ_Python_for_Data_Science_(SF)](#assignment-03-wsq-python-for-data-science-sf)
-- [5. Project_Milestone_1&2_Python_for_Data_Science](#project-milestone-1-2-python-for-data-science)
-- [6. Project_Milestone_3&4_Python_for_Data_Science](#project-milestone-3-4-python-for-data-science)
+- [4. Assignment_02b_WSQ_Python_for_Data_Science_(SF)](#assignment-02b-wsq-python-for-data-science-sf)
+- [5. Assignment_03_WSQ_Python_for_Data_Science_(SF)](#assignment-03-wsq-python-for-data-science-sf)
+- [6. Project_Milestone_1&2_Python_for_Data_Science](#project-milestone-1-2-python-for-data-science)
+- [7. Project_Milestone_3&4_Python_for_Data_Science](#project-milestone-3-4-python-for-data-science)
 
 ## Quick Start (Local)
 
@@ -34,7 +35,7 @@ This repository contains the **assignments** and **project milestones** I comple
 
 ## Open in Google Colab
 
-You (and users) can open any of these `.ipynb` files directly in **Google Colab**:
+You can open any of these `.ipynb` files directly in **Google Colab**:
 
 - Go to **https://colab.google.com**.
 - To open from **GitHub**: **File ▸ Open notebook ▸ GitHub** tab → paste your repository URL → pick a notebook.
@@ -49,75 +50,92 @@ You (and users) can open any of these `.ipynb` files directly in **Google Colab*
   - Data wrangling: `pandas`
   - Statistical plotting: `seaborn`
 
+<a id="assignment-01a-wsq-python-for-data-science-sf"></a>
 ## 1. Assignment_01a_WSQ_Python_for_Data_Science_(SF)
 
 **File:** `Assignment_01a_WSQ_Python_for_Data_Science_(SF).ipynb`  
 **Cells:** 8 code, 7 markdown
 
-**Overview:** Task 1: Variable Manipulation  *  Create two variables named num1 and num2 and assign them integer values of your choice. *  Calculate the sum of num1 and num2 and store the result in a variable called sum_result. *  Print the value of sum_result.
+**Overview:** Task 1: Variable Manipulation  * Create two variables named num1 and num2, sum them, and print the result.
 
 ---
 
+<a id="assignment-01b-wsq-python-for-data-science-sf"></a>
 ## 2. Assignment_01b_WSQ_Python_for_Data_Science_(SF)
 
 **File:** `Assignment_01b_WSQ_Python_for_Data_Science_(SF).ipynb`  
 **Cells:** 7 code, 8 markdown
 
-**Overview:** Task 1: Double the Number  *  Write a Python function named double_number that takes a number as input and returns the double of the number.
+**Overview:** Task 1: Double the Number  * Write a Python function that doubles an input number.
 
 ---
 
+<a id="assignment-02a-wsq-python-for-data-science-sf"></a>
 ## 3. Assignment_02a_WSQ_Python_for_Data_Science_(SF)
 
 **File:** `Assignment_02a_WSQ_Python_for_Data_Science_(SF).ipynb`  
 **Cells:** 5 code, 5 markdown
 
-**Overview:** Task 1: Convert Weights to Pounds  *  Create a Python list weight_kg with weight values *  Convert weight_kg to numpy array np_weight_kg *  Convert np_weight_kg to weight in Pounds np_weight_lbs  Hint: Use the conversion factor of 2.2 pounds per kilogram
+**Overview:** Task 1: Convert Weights to Pounds  * Convert a Python list of weights in kg to numpy array and then to pounds.
 
 **Libraries imported:** `numpy`
 
 ---
+<a id="assignment-02b-wsq-python-for-data-science-sf"></a>
+## 4. Assignment_02b_WSQ_Python_for_Data_Science_(SF)
 
-## 4. Assignment_03_WSQ_Python_for_Data_Science_(SF)
+**File:** `Assignment_02b_WSQ_Python_for_Data_Science_(SF).ipynb`  
+**Cells:** 8 code, 10 markdown
+
+**Overview:** Task 1: Loading the Data:  *  Load the Titanic dataset into a Pandas DataFrame.
+
+**Libraries imported:** `pandas`
+
+---
+
+<a id="assignment-02b-wsq-python-for-data-science-sf"></a>
+## 4. Assignment_02b_WSQ_Python_for_Data_Science_(SF)
+
+**File:** `Assignment_02b_WSQ_Python_for_Data_Science_(SF).ipynb`  
+**Cells:** 8 code, 10 markdown
+
+**Overview:** Tasks: Practice with lists, tuples, and dictionaries; apply iteration and conditionals in Python.
+
+**Libraries imported:** `pandas`
+
+---
+
+<a id="assignment-03-wsq-python-for-data-science-sf"></a>
+## 5. Assignment_03_WSQ_Python_for_Data_Science_(SF)
 
 **File:** `Assignment_03_WSQ_Python_for_Data_Science_(SF).ipynb`  
 **Cells:** 6 code, 7 markdown
 
-**Overview:** Task 1: Load the Dataset and Explore  *  Download the Titanic dataset and assign it to a DataFrame. *  Display the first few rows to get an overview of the data.
+**Overview:** Task 1: Load the Titanic dataset with pandas and perform basic exploration and visualization.
 
 **Libraries imported:** `matplotlib, pandas, seaborn`
 
 ---
 
-## 5. Project_Milestone_1&2_Python_for_Data_Science
+<a id="project-milestone-1-2-python-for-data-science"></a>
+## 6. Project_Milestone_1&2_Python_for_Data_Science
 
 **File:** `Project_Milestone_1&2_Python_for_Data_Science.ipynb`  
 **Cells:** 21 code, 16 markdown
 
-**Overview:** 1. Load the COVID-19 dataset using pandas from the provided dataset.
-
-**Main sections/headings:**
-- Activity 2
-- Activity 3
+**Overview:** Milestones 1 & 2: Work with COVID-19 dataset, perform data wrangling, and visualize trends.
 
 **Libraries imported:** `matplotlib, pandas, seaborn`
 
 ---
 
-## 6. Project_Milestone_3&4_Python_for_Data_Science
+<a id="project-milestone-3-4-python-for-data-science"></a>
+## 7. Project_Milestone_3&4_Python_for_Data_Science
 
 **File:** `Project_Milestone_3&4_Python_for_Data_Science.ipynb`  
 **Cells:** 17 code, 23 markdown
 
-**Overview:** 1. Create a grouped bar chart to visualize new cases by continent and month.
-
-**Main sections/headings:**
-- Project Milestone 3
-- Activity 4: Regional Analysis Unveiling regional nuances in COVID-19 dynamics and identifying patterns in case distribution and fatality across time and continents.
-- Activity 5: Time Series Analysis Capturing the daily dynamics of COVID-19, assessing the impact of vaccination, and monitoring testing metrics for a comprehensive global overview.
-- Project Milestone-04
-- Activity 6: In-Depth Country Analysis Conducting an in-depth examination of specific countries, understanding the correlation between cases and deaths globally, and exploring continental variations in case distribution.
-- Activity 7: Additional Insights Extracting additional insights, examining the influence of external factors, and evaluating regional disparities for a holistic understanding of the COVID-19 landscape.
+**Overview:** Milestones 3 & 4: Extended COVID-19 analysis including regional, time series, and country-level insights.
 
 **Libraries imported:** `matplotlib, pandas, seaborn`
 
@@ -132,7 +150,7 @@ Across these assignments and milestones, I practiced:
 - Data wrangling with pandas (loading, cleaning, transforming, grouping, merging)
 - Exploratory data analysis (descriptive statistics, handling missing values, outliers)
 - Visualization with matplotlib/seaborn (distributions, relationships, time series)
-- Introductory machine learning with scikit‑learn (train/test split, basic models)
+- Introductory machine learning with scikit-learn (train/test split, basic models)
 
 ## Repository Structure
 ```
@@ -140,6 +158,7 @@ Across these assignments and milestones, I practiced:
 ├─ Assignment_01a_WSQ_Python_for_Data_Science_(SF).ipynb
 ├─ Assignment_01b_WSQ_Python_for_Data_Science_(SF).ipynb
 ├─ Assignment_02a_WSQ_Python_for_Data_Science_(SF).ipynb
+├─ Assignment_02b_WSQ_Python_for_Data_Science_(SF).ipynb
 ├─ Assignment_03_WSQ_Python_for_Data_Science_(SF).ipynb
 ├─ Project_Milestone_1&2_Python_for_Data_Science.ipynb
 ├─ Project_Milestone_3&4_Python_for_Data_Science.ipynb
